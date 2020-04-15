@@ -1,0 +1,190 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+
+.brandname{
+
+    font-size: 36px;
+    font-weight: 900;
+    color:white;
+}
+
+.brandname:hover{
+
+    color: turquoise;
+}
+
+.navelement{
+    font-family: 'Permanent Marker', cursive;
+font-family: 'Alfa Slab One', cursive;
+
+    font-size: 25px;
+    color: white;
+}
+
+.navelement:hover{
+    color: turquoise;
+}
+
+.fixed-top{
+    color: black;
+    background-color: black !important;
+    box-shadow: 2px 2px 10px grey;
+    overflow: hidden;
+}
+
+.heromargin{
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.main-name{
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.name{
+    font-family: 'Permanent Marker', cursive;
+font-family: 'Alfa Slab One', cursive;
+    font-size:65px;
+    color: tomato;
+    /* color: #8EE4AF; */
+}
+.profs{
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Alfa Slab One', cursive;
+    font-size:50px;
+    color: rgb(253, 126, 104);
+    /* color: #5CDB95; */
+}
+body{
+    background-color: #020e24 !important;
+
+}
+.profs1{
+    color: white;
+}
+ 
+
+.button1{
+    font-size: 20px;
+    background-color: black;
+    color: tomato;
+    border: tomato 1px solid;
+    border-radius: 50px;
+    text-decoration: none;
+    size: 50px;
+    margin-top: 25px;
+    padding: 7px 20px 7px 20px;
+}
+
+.button1:hover{
+
+    background-color: white;
+    color: turquoise;
+    border: turquoise 1px solid;
+    
+}
+.quotes{
+    clip-path: polygon(50% 0%, 100% 0, 100% 59%, 50% 100%, 0 59%, 0 0);
+    margin-top: 107px;
+    height:auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: rgb(223, 137, 137);
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    max-width: 100%;
+}
+
+.profile-heading{
+
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Rochester', cursive;
+    padding-top: 35px;
+    padding-bottom: 15px;
+}
+.profile-heading::after,.profile-heading::before{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: black;
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.profile-pic{
+    margin: auto;
+    border-radius: 200px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important; 
+}
+
+.profile-details{
+    font-family: 'Satisfy', cursive;
+font-family: 'Rochester', cursive;
+font-family: 'Anton', sans-serif;
+font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+
+
+.about{
+    margin-top: -20px;
+}
+
+.interest{
+    padding-top: 50px;
+    font-size: 30px;
+    font-family: 'Satisfy', cursive;
+font-family: 'Rochester', cursive;
+font-family: 'Anton', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Cinzel', serif;
+font-family: 'Rakkas', cursive;
+}
+
+
+
+
+@media only screen and (max-width: 600px){
+
+.heromargin{
+   margin-top: 50px;
+}
+.name{
+    font-size: 50px;
+}
+.quotes{
+   margin-top: -5px;
+   padding-bottom: 50px;
+}
+
+.profile-heading::after,.profile-heading::before{
+    content: "";
+    width: 25px;
+    height: 2px;
+    background: black;
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card{
+    margin: auto;
+}
+.navelement{
+    font-size: 14px;
+}
+}
