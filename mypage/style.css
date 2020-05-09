@@ -16,17 +16,24 @@ html {
     color: turquoise;
 }
 
-.navelement{
-    font-family: 'Permanent Marker', cursive;
-font-family: 'Alfa Slab One', cursive;
-
-    font-size: 25px;
-    color: white;
-}
-
-.navelement:hover{
-    color: turquoise;
-}
+.fa-1x {
+    font-size: 1.5rem;
+    }
+    .navbar-toggler.toggler-example {
+    cursor: pointer;
+    }
+    .dark-blue-text {
+    color: #0A38F5;
+    }
+    .dark-pink-text {
+    color: #AC003A;
+    }
+    .dark-amber-text {
+    color: #ff6f00;
+    }
+    .dark-teal-text {
+    color: #004d40;
+    }
 
 .fixed-top{
     color: black;
@@ -98,6 +105,7 @@ body{
     font-size: 30px;
     color: rgb(0, 0, 0);
     max-width: 100%;
+   
 }
 
 .profile-heading{
